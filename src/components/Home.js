@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import logodel2 from '../logodel2.jpeg';
+import {Link} from 'react-router-dom'
 
 const Home = () => {
     return(
@@ -12,22 +13,12 @@ const Home = () => {
           </p>
           </header>
         <div className="App-orden">
-          <a
-            className="App-link"
-            href="./components/Ingles.js"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link className="App-link" to="/Ingles">
             English 
-          </a>
-          <a
-            className="App-link"
-            href="./components/Español.js"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          </Link>
+          <Link className="App-link" to="/Español">
             Español
-          </a>
+          </Link>
         </div>
         
       </div>
