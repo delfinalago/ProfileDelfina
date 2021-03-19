@@ -8,6 +8,9 @@ import logodel2 from '../logodel2.jpeg';
 
 const useStyles = makeStyles(theme => ({
 
+    root: {
+        flexGrow: 1,
+      },
     logo: {
         margin: 'auto',
         float:"left",
@@ -21,6 +24,8 @@ const useStyles = makeStyles(theme => ({
         float:"left",
         fontSize: 30,
         padding: 15,
+        paddingLeft: 30,
+        fontFamily: 'Ubuntu',
       },
 
   }))
@@ -34,9 +39,9 @@ const AboutMe = () => {
     
     return(
 
-    <div>
+    <div className={classes.root}>
          
-        <Box p={4} border={1} justifyContent="" display="flex" bgcolor="secondary.main" color="primary.main" m={4}>
+        <Box p={4} border={1}  display="flex" bgcolor="secondary.main" color="primary.main" m={12}>
                 <img src={logodel2} className={classes.logo} alt="logo" />   
                 <p className={classes.parrafo}> 
                     Hi ! My name is Delfina Lago im a Fullstack Developer.

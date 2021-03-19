@@ -1,7 +1,9 @@
 import React from 'react'
-import {Button, Typography} from '@material-ui/core'
 import Navbar from '../components/Navbar'
 import AboutMe from '../components/AboutMe'
+import Skills from '../components/Skills'
+import Projects from '../components/Projects'
+
 
 
 export default function Ingles() {
@@ -9,6 +11,8 @@ export default function Ingles() {
         <div>
             <Navbar/>
             <AboutMe/>
+            <Skills/>
+            <Projects/>
         </div>
     )
 }
