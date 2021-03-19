@@ -9,7 +9,8 @@ const theme = createMuiTheme({
             main : cyan[400]
         },
         secondary: {
-            main: grey[50]
+            main: grey[50],
+            light: '#ff7961',
         },
     }
 

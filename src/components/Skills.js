@@ -36,7 +36,7 @@ const Skills = () => {
 
             <Box component={Grid} container >
 
-                <Box component={Grid} item boxShadow={3}  >
+                <Box component={Grid} item boxShadow={3} >
                    <Paper> 
                        <img src='https://i.postimg.cc/PvpLyTfd/bootstrap-plain-wordmark-logo-icon-146620.png' className={classes.logoSkills} alt="logo" /> 
                    </Paper>  
