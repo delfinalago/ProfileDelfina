@@ -5,13 +5,10 @@ import {makeStyles} from '@material-ui/core/styles';
 
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
-import { red } from '@material-ui/core/colors';
+
 
 const useStyles = makeStyles(theme => ({
 
-    root: {
-        flexGrow: 1,
-    },
     titleprojects: {
 
         justifyContent: "center",
@@ -33,7 +30,6 @@ export default function Projects(){
     return(
            
         <div className={classes.todo}>
-        <dvi className={classes.root}>
             <Divider/>
             <h1 className={classes.titleprojects}>PROJECTS</h1>
 
@@ -75,7 +71,6 @@ export default function Projects(){
                     </Box>
                 </Grid>
             </Grid>
-        </dvi>    
         </div>
 
         
