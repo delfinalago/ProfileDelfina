@@ -19,6 +19,10 @@ const useStyles = makeStyles(theme => ({
         flexGrow: 1,
         padding: 1,
     },
+    linksNav: {
+      textDecoration: "none",  
+      color: "white",
+    },
   }))
 
 
@@ -28,17 +32,17 @@ const Navbar = () => {
 
     return(
         <div>
-            <AppBar>
+            <AppBar color="primary">
                 <Toobar>  
                         <Typography variant='h5'  color="secondary" className={classes.title}>
                             Delfina Lago   
                         <br/>    
                             Fullstack Developer
                         </Typography>
-                    <Button color="secondary">About Me</Button>
-                    <Button color="secondary">Skills</Button>
-                    <Button color="secondary">Projects</Button>
-                    <Button color="secondary">Contact</Button>
+                    <Button color="secondary"><a className={classes.linksNav} href="#AboutMe">About Me</a></Button>
+                    <Button color="secondary"><a className={classes.linksNav} href="#Skills">Skills</a></Button>
+                    <Button color="secondary"><a className={classes.linksNav} href="#Projects">Projects</a></Button>
+                    <Button color="secondary"><a className={classes.linksNav} href="#Contact">Contact</a></Button>
                 </Toobar>
             </AppBar>
             <div className={classes.offset}></div>

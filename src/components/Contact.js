@@ -34,7 +34,7 @@ export default function Contact(){
 
     return(
 
-        <div className={classes.magia}>
+        <div  id="Contact" className={classes.magia}>
             <h1 className={classes.title}>CONTACT</h1>
             <br/>
             <h3 className={classes.description}>Email: Delfinalago@gmail.com</h3>

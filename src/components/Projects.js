@@ -29,7 +29,7 @@ export default function Projects(){
 
     return(
            
-        <div className={classes.todo}>
+        <div id="Projects" className={classes.todo}>
             <Divider/>
             <h1 className={classes.titleprojects}>PROJECTS</h1>
 
