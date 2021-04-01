@@ -7,7 +7,6 @@ import Grid from '@material-ui/core/Grid'
 const useStyles = makeStyles(theme => ({
 
     title: {
-
         textAlign: "center",
         fontWeight: 200,
         fontFamily: "Poppins, sans-serif",
@@ -20,11 +19,6 @@ const useStyles = makeStyles(theme => ({
         padding: 10,
        
     },
-    space: {
-        padding: theme.spacing(2),
-        
-    }
-
 }))
 
 const Skills = () => {
@@ -35,7 +29,7 @@ const Skills = () => {
 
       <div id="Skills">
           <h1 className={classes.title}>SKILLS</h1>
-        <Grid container spacing={2}>
+        <Grid container spacing={1}>
         <Grid item xs={12} sm={2}>
           <Box p={2}>
             <img src='https://i.postimg.cc/PvpLyTfd/bootstrap-plain-wordmark-logo-icon-146620.png' className={classes.logoSkills} alt="logo" />   

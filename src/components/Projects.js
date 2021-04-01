@@ -3,78 +3,78 @@ import React from 'react';
 import Divider from '@material-ui/core/Divider';
 import {makeStyles} from '@material-ui/core/styles';
 
-import Box from '@material-ui/core/Box';
-import Grid from '@material-ui/core/Grid';
+import {Grid, Box, Button} from '@material-ui/core';
+
+import Veski from '../Imagenes/Veski.jpeg'
+
 
 
 const useStyles = makeStyles(theme => ({
 
-    titleprojects: {
-
-        justifyContent: "center",
+    tituloProjects: {
         textAlign: "center",
-        fontFamily: "Ubuntu",
-    },
-    todo: {
-        marginTop: 35,
-        backgroundColor: "#e3f2fd"
+        textDecoration: "underline",
+        fontFamily: "Poppins, sans-serif",
+        fontWeight: 200,
     }
+
 
 }))
 
+const Projects = () => {
 
-export default function Projects(){
-
-    const classes = useStyles()
+    const classes = useStyles();
 
     return(
-           
-        <div id="Projects" className={classes.todo}>
-            <Divider/>
-            <h1 className={classes.titleprojects}>PROJECTS</h1>
+        <div>
 
+            <h1 className={classes.tituloProjects}>PROJECTS</h1>
 
             <Grid container spacing={2}>
-                <Grid item xs={12} sm={6} >
-                    <Box bgcolor="primary.main" color="primary.contrastText" p={4} m={4} borderRadius={15}>
-                        Proyecto 1
-                    </Box>
-                </Grid>
 
-                <Grid item xs={12} sm={6} >
-                    <Box bgcolor="primary.main" color="primary.contrastText"  p={4} m={4} borderRadius={15}>
-                        Proyecto 2
+                <Grid item xs={12} sm={6} md={4} >
+                    <Box border={2}>
+                        Veski wallet
                     </Box>
-                </Grid>
+                </Grid>  
 
-                <Grid item xs={12} sm={6}>
-                    <Box bgcolor="primary.main" color="primary.contrastText"  p={4} m={4} borderRadius={15}>
-                        Proyecto 3
+                <Grid item xs={12} sm={6} md={4} >
+                    <Box border={2}>
+                        Veski wallet
                     </Box>
-                </Grid>
+                </Grid>  
 
-                <Grid item xs={12} sm={6}>
-                    <Box bgcolor="primary.main" color="primary.contrastText"  p={4} m={4} borderRadius={15}>
-                        Proyecto 4
+                <Grid item xs={12} sm={6} md={4} >
+                    <Box border={2}>
+                        Veski wallet
                     </Box>
-                </Grid>
+                </Grid>  
 
-                <Grid item xs={12} sm={6}>
-                    <Box bgcolor="primary.main" color="primary.contrastText"  p={4} m={4} borderRadius={15}>
-                        Proyecto 5
+                <Grid item xs={12} sm={6} md={4} >
+                    <Box border={2}>
+                        Veski wallet
                     </Box>
-                </Grid>
+                </Grid>  
 
-                <Grid item xs={12} sm={6}>
-                    <Box bgcolor="primary.main" color="primary.contrastText"  p={4} m={4} borderRadius={15}>
-                        Proyecto 6
+                <Grid item xs={12} sm={6} md={4} >
+                    <Box border={2}>
+                        Veski wallet
                     </Box>
-                </Grid>
+                </Grid>  
+
+                <Grid item xs={12} sm={6} md={4} >
+                    <Box border={2}>
+                        Veski wallet
+                    </Box>
+                </Grid>  
+
             </Grid>
         </div>
-
-        
-
     )
+
 }
 
+export default Projects; 
+
+
+        
