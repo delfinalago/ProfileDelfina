@@ -15,9 +15,9 @@ const useStyles = makeStyles(theme => ({
 
     tituloProjects: {
         textAlign: "center",
-        textDecoration: "underline",
         fontFamily: "Poppins, sans-serif",
         fontWeight: 200,
+        letterSpacing: 5,
     },
     DivProjects: {
       margin: 100,  

@@ -16,7 +16,7 @@ const useStyles = makeStyles(theme => ({
         textAlign: "center",
         fontWeight: 200,
         fontFamily: "Poppins, sans-serif",
-        textDecoration: "underline",
+        letterSpacing: 5,
     },
     caja: {
       borderRadius: 10,
