@@ -1,5 +1,5 @@
 import React from 'react';
-import {makeStyles} from '@material-ui/core'
+import {Divider, makeStyles} from '@material-ui/core'
 import Box from '@material-ui/core/Box'
 import Grid from '@material-ui/core/Grid'
 
@@ -17,17 +17,19 @@ const useStyles = makeStyles(theme => ({
         fontWeight: 200,
         fontFamily: "Poppins, sans-serif",
         letterSpacing: 5,
+        paddingTop: 35,
     },
     caja: {
       borderRadius: 10,
       height: 80,
       width: 80,
-      boxShadow: "0 0 13px #80CBC4, 0 0 25px #80CBC4, 0 0 13px #80CBC4",
+      boxShadow: "0 0 10px #083C54, 0 0 15px #083C54, 0 0 10px #083C54",
     },
     cajaGrid: {
       margin: 100,
       
-    }
+      
+    },
 }))
 
 const Skills = () => {
@@ -36,7 +38,10 @@ const Skills = () => {
 
     return(
 
+      
+      
       <div id="Skills" className={classes.root}>
+        <hr/>
           <h1 className={classes.title}>SKILLS</h1>
       <div className={classes.cajaGrid}>
         <Grid container spacing={1} >
@@ -117,6 +122,7 @@ const Skills = () => {
         </Grid>
       </Grid>
       </div>      
+      <hr/>
     </div>  
     );
   }

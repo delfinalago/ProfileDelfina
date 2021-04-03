@@ -13,6 +13,7 @@ const useStyles = makeStyles(theme => ({
         fontFamily : "Poppins, sans-serif",
         textAlign: "center",
         letterSpacing: 5,
+        fontWeight: 200,
     },
     magia: {
         
@@ -50,7 +51,7 @@ export default function Contact(){
                     
             
                     <Grid item xs={12} sm={12} md={6} lg={6}>
-                        <Box border={2} borderRadius={5} mx={10} textAlign={"center"} borderColor={"grey"}>
+                        <Box border={2} borderRadius={5} mx={10} p={2} textAlign={"center"} borderColor={"grey"} fontFamily={"Poppins, sans-serif"}>
                             Email:<br/>
                             Delfinalago@gmail.com
                        </Box>
@@ -59,7 +60,7 @@ export default function Contact(){
 
                 
                     <Grid item xs={12} sm={12} md={6} lg={6}>
-                        <Box border={2} borderRadius={5} mx={10} textAlign={"center"}>
+                        <Box border={2} borderRadius={5} mx={10} p={2} textAlign={"center"} fontFamily={"Poppins, sans-serif"}>
                             Linkedin:<br/>
                             <a  className={classes.linkedin} href="https://www.linkedin.com/in/delfina-lago-b6b2b8145/">Delfina Lago</a>
                         </Box>
