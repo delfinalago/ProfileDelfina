@@ -36,7 +36,7 @@ const useStyles = makeStyles(theme => ({
       TituloAboutMe: {
         textAlign:"center",
         color: "#083C54",
-        paddingTop: 60,
+        paddingTop: 80,
         letterSpacing: 7,
         fontWeight: 200,
         fontSize: 60,

@@ -47,7 +47,7 @@ const useStyles = makeStyles(theme => ({
     tituloProject:{
         fontSize: 20,
         fontFamily: "popins, sans-serif",
-        letterSpacing: 2,
+        letterSpacing: 1,
     },
 
 
@@ -71,7 +71,7 @@ const Projects = () => {
                             <Box border={2} borderRadius={15} borderColor={"#083C54"}>
                                 <a href="https://github.com/delfinalago/HenryBank-G05" target="blank" >
                                 <div className={classes.divImagen}>
-                                <Image className={classes.imagenprojects} src={Veskiwallet2} />
+                                <Image cover="true" className={classes.imagenprojects} src={Veskiwallet2} />
                                 </div>
                                 </a>
                                 <h1 className={classes.tituloProject}>
@@ -85,7 +85,7 @@ const Projects = () => {
                             <Box border={2} borderRadius={15} borderColor={"#083C54"}>
                             <a href="https://github.com/delfinalago/ecommerce-ft05-g1" target="blank" >
                                 <div className={classes.divImagen}>
-                                <Image className={classes.imagenprojects} src={EcommerceHENRY} />
+                                <Image cover="true" className={classes.imagenprojects} src={EcommerceHENRY} />
                                 </div>
                             </a>
                                 <h1 className={classes.tituloProject}>
@@ -99,7 +99,7 @@ const Projects = () => {
                             <Box border={2} borderRadius={15} borderColor={"#083C54"}>
                             <a href="https://github.com/delfinalago/Henry-MercadoLibre" target="blank" >
                                 <div className={classes.divImagen}>
-                                <Image className={classes.imagenprojects} src={mercadolibre} />
+                                <Image  cover="true" className={classes.imagenprojects} src={mercadolibre} />
                                 </div>
                             </a>
                                 <h1 className={classes.tituloProject}>

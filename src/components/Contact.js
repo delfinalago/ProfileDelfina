@@ -14,13 +14,15 @@ const useStyles = makeStyles(theme => ({
         textAlign: "center",
         letterSpacing: 5,
         fontWeight: 200,
+        paddingBottom: 50,
     },
     magia: {
         
         
         paddingTop: 100,
         paddingBottom: 200,
-        backgroundImage: `url(${"https://i.postimg.cc/9FH0PJBg/5086.jpg"})`,
+        backgroundColor: "CIAN CLARO"
+        // backgroundImage: `url(${"https://i.postimg.cc/9FH0PJBg/5086.jpg"})`,
     },
     linkedin: {
         
@@ -30,6 +32,9 @@ const useStyles = makeStyles(theme => ({
         paddingTop: 35,
         marginRight: 150,
         marginLeft: 150,
+    },
+    divider: {
+        marginBottom: 30,
     }
 
 }))
@@ -44,6 +49,7 @@ export default function Contact(){
     return(
 
         <div  id="Contact" className={classes.magia}>
+            <hr className={classes.divider}/>
             <h1 className={classes.title}>CONTACT</h1>
 
             <div className={classes.espacio}>

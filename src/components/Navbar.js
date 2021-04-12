@@ -4,7 +4,12 @@ import AppBar from '@material-ui/core/AppBar';
 import Toobar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
+
 import {makeStyles} from '@material-ui/core'
+
+import user from '../Imagenes/user.png';
+import backButton from '../Imagenes/backButton.png'
+
 
 const useStyles = makeStyles(theme => ({
     // offset: theme.mixins.toolbar,
@@ -22,7 +27,19 @@ const useStyles = makeStyles(theme => ({
     linksNav: {
       textDecoration: "none",  
       color: "white",
+      alignContent: "rigth",
     },
+    userIcono: {
+       width: 60,
+       paddingRight: 15,
+       paddingTop: 5,
+       paddingBottom: 5,
+        
+    },
+    backIcono: {
+        paddingLeft: 15,
+    }
+
   }))
 
 
@@ -33,16 +50,26 @@ const Navbar = () => {
     return(
         <div>
             <AppBar color="primary">
-                <Toobar>  
+                <Toobar>
+                    <a href="/">
+                        <img src={user} className={classes.userIcono} alt="logo" />
+                    </a>
                         <Typography variant='h5'  color="secondary" className={classes.title}>
+                        <a  className={classes.linksNav} href="/">
                             Delfina Lago   
                         <br/>    
                             Fullstack Developer
+                        </a>
                         </Typography>
-                    <Button color="secondary"><a className={classes.linksNav} href="#AboutMe">About Me</a></Button>
-                    <Button color="secondary"><a className={classes.linksNav} href="#Skills">Skills</a></Button>
-                    <Button color="secondary"><a className={classes.linksNav} href="#Projects">Projects</a></Button>
-                    <Button color="secondary"><a className={classes.linksNav} href="#Contact">Contact</a></Button>
+                    
+                        <Button  color="secondary"><a className={classes.linksNav} href="#AboutMe">About Me</a></Button>
+                        <Button  color="secondary"><a className={classes.linksNav} href="#Skills">Skills</a></Button>
+                        <Button  color="secondary"><a className={classes.linksNav} href="#Projects">Projects</a></Button>
+                        <Button  color="secondary"><a className={classes.linksNav} href="#Contact">Contact</a></Button>
+                        <a href="/">
+                        <img src={backButton} className={classes.backIcono} alt="logo" />
+                        </a>
+                    
                 </Toobar>
             </AppBar>
             <div className={classes.offset}></div>
