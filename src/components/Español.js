@@ -1,9 +1,20 @@
 import React from 'react'
+import NavbarEsp from '../components/NavbarEsp'
+import SobreMi from '../components/SobreMi'
+import Habilidades from '../components/Habilidades'
+import Proyectos from '../components/Proyectos'
+import Contacto from '../components/Contacto'
 
-export default function Español() {
+
+
+export default function Ingles() {
     return (
         <div>
-            <h1>Soy Español!</h1>
+            <NavbarEsp/>
+            <SobreMi/>
+            <Habilidades/>
+            <Proyectos/>
+            <Contacto/>
         </div>
     )
 }
