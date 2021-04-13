@@ -51,9 +51,9 @@ const Navbar = () => {
         <div>
             <AppBar color="primary">
                 <Toobar>
-                    <a href="/">
+                    {/* <a href="/">
                         <img src={user} className={classes.userIcono} alt="logo" />
-                    </a>
+                    </a> */}
                         <Typography variant='h5'  color="secondary" className={classes.title}>
                         <a  className={classes.linksNav} href="/">
                             Delfina Lago   
