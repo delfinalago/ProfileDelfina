@@ -1,7 +1,7 @@
 import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
-import { Button, Grid, Box } from '@material-ui/core';
-import { FilterNone } from '@material-ui/icons';
+import { Grid, Box } from '@material-ui/core';
+
 
 
 const useStyles = makeStyles(theme => ({
@@ -53,7 +53,7 @@ export default function Contact(){
             <h1 className={classes.title}>CONTACTO</h1>
 
             <div className={classes.espacio}>
-                <Grid container  >
+                <Grid container spacing={1} >
                     
             
                     <Grid item xs={12} sm={12} md={6} lg={6}>

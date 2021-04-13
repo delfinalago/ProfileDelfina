@@ -113,7 +113,7 @@ const Projects = () => {
                             <Box border={2} borderRadius={15} borderColor={"#083C54"}>
                             <a href="https://www.publistar.com.ar/" target="blank" >
                                 <div className={classes.divImagen}>
-                                <Image className={classes.imagenprojects} src={PublistarR} alt='publistar' />
+                                <Image cover="true" className={classes.imagenprojects} src={PublistarR} alt='publistar' />
                                 </div>
                             </a>
                                 <h1 className={classes.tituloProject}>
