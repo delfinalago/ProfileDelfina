@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/ProfileDelfina/static/css/main.8083ecec.chunk.css",
+    "main.js": "/ProfileDelfina/static/js/main.f2503db7.chunk.js",
+    "main.js.map": "/ProfileDelfina/static/js/main.f2503db7.chunk.js.map",
+    "runtime-main.js": "/ProfileDelfina/static/js/runtime-main.2dfa1471.js",
+    "runtime-main.js.map": "/ProfileDelfina/static/js/runtime-main.2dfa1471.js.map",
+    "static/js/2.feee4e8c.chunk.js": "/ProfileDelfina/static/js/2.feee4e8c.chunk.js",
+    "static/js/2.feee4e8c.chunk.js.map": "/ProfileDelfina/static/js/2.feee4e8c.chunk.js.map",
+    "static/js/3.8adcf376.chunk.js": "/ProfileDelfina/static/js/3.8adcf376.chunk.js",
+    "static/js/3.8adcf376.chunk.js.map": "/ProfileDelfina/static/js/3.8adcf376.chunk.js.map",
+    "index.html": "/ProfileDelfina/index.html",
+    "static/css/main.8083ecec.chunk.css.map": "/ProfileDelfina/static/css/main.8083ecec.chunk.css.map",
+    "static/js/2.feee4e8c.chunk.js.LICENSE.txt": "/ProfileDelfina/static/js/2.feee4e8c.chunk.js.LICENSE.txt",
+    "static/media/EcommerceHENRY.db68a657.png": "/ProfileDelfina/static/media/EcommerceHENRY.db68a657.png",
+    "static/media/Publistar.98ec723e.png": "/ProfileDelfina/static/media/Publistar.98ec723e.png",
+    "static/media/PublistarR.c81b276f.png": "/ProfileDelfina/static/media/PublistarR.c81b276f.png",
+    "static/media/VeskiWallet2.1bcfb2c5.png": "/ProfileDelfina/static/media/VeskiWallet2.1bcfb2c5.png",
+    "static/media/logodel2.278115ed.jpeg": "/ProfileDelfina/static/media/logodel2.278115ed.jpeg",
+    "static/media/mercadolibre.2759b0c9.jpeg": "/ProfileDelfina/static/media/mercadolibre.2759b0c9.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2dfa1471.js",
+    "static/js/2.feee4e8c.chunk.js",
+    "static/css/main.8083ecec.chunk.css",
+    "static/js/main.f2503db7.chunk.js"
+  ]
+}
